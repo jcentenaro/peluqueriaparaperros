@@ -1,0 +1,37 @@
+<%- contentFor('title') %> <%= titulo %> <%- contentFor('body') %>
+
+<%# contentFor('styles') %>
+<%# contentFor('body') %>
+<main>
+	<!--About-->
+    <%- include("partials/about") %>
+	<!--/About-->
+
+	<!--services-->
+	<%- include("partials/services") %>
+	<!--//services-->
+
+	<!--galeria-->
+    <%- include("partials/galery") %>
+    <!--/galeria-->
+
+	<!-- //portfolio -->
+
+	<!--price table-->
+	<%- include("partials/prices") %>
+	<!--//price table-->
+
+	<!-- testimonials -->
+	<%- include("partials/testimonials") %>
+	<!-- testimonials -->
+
+	<!--contact-->
+    <%- include("partials/contact") %>
+	<!--/contact-->
+			
+	<!-- zonas + logos-->
+    <%- include("partials/zonas") %>
+    <!-- /zonas + logos-->
+</main>
+
+<%# contentFor('scripts') %>

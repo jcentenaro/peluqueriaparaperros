@@ -1,0 +1,200 @@
+<div class="header-outs">
+    <div class="header-w3layouts">
+
+        <div class="header-bar">
+            <nav class="navbar navbar-default">
+                <div class="navbar-header navbar-left">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                    <h1><a class="navbar-brand" href="index.html">SM<span class="fa fa-paw" aria-hidden="true"></span>KIE</a></h1>
+                </div>
+
+                <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+                    <nav>
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="index.html">Home</a></li>
+                            <li><a href="#nosotros" class="scroll">Nosotros</a></li>
+                            <li><a href="#servicios" class="scroll">Servicios</a></li>
+                            <li><a href="#galeria" class="scroll">Galería</a></li>
+                            <li><a href="#precios" class="scroll precios">Precios</a></li>
+                            <li><a href="#zonas" class="scroll">Zonas</a></li>
+                            <li><a href="#contacto" class="scroll">Contacto</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </nav>
+        </div>
+
+        <div class="clearfix"> </div>
+
+    </div>
+
+    <!-- Slideshow 4 -->
+    <div class="slider">
+        <div class="callbacks_container">
+            <ul class="rslides" id="slider4">
+                <!-- <li>
+                    <div class="slider-img">
+                        <div class="container">
+                            <div class="slider-info">
+                                <h4> <span class="fa fa-paw paw-banner" aria-hidden="true"></span><span class="home-banner">B</span>año de <span class="home-banner">M</span>ascotas a <span class="home-banner">D</span>omicilio
+                                    <span class="fa fa-paw paw-banner" aria-hidden="true"></span></h4>
+                                <p>Desde CABA Norte hasta Beccar</p>
+                                <div class="outs_more-buttn">
+                                    <a href="#" data-toggle="modal" data-target="#myModal">Solicitar Turno</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li> -->
+                <li>
+                    <div class="slider-img ">
+                        <div class="container">
+                            <div class="slider-info">
+                                <h4> <span class="fa fa-paw paw-banner" aria-hidden="true"></span><span class="home-banner">P</span>eluquería <span class="home-banner">C</span>anina a <span class="home-banner">D</span>omicilio
+                                    <span class="fa fa-paw paw-banner" aria-hidden="true"></span> </h4>
+                                <p><%= zona %></p>
+                                <!-- <div class="outs_more-buttn">
+                                    <a href="#" data-toggle="modal" data-target="#myModal">Solicitar Turno</a>
+                                </div> -->
+                                <div class="wa-horizontal-buttn">
+                                    <a href="https://api.whatsapp.com/send?phone=541159197589&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20cortes%20de%20pelo%20para%20perros%20a%20domicilio." target="_blank">Consultanos por Whatsapp</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="slider-img ">
+                        <div class="container">
+                            <div class="slider-info">
+                                <h4><span class="fa fa-paw paw-banner" aria-hidden="true"></span><span class="home-banner">C</span>orte <span class="home-banner">D</span>e <span class="home-banner">P</span>elo <span class="home-banner">C</span>anino en <span class="home-banner">C</span>asa
+                                    <span class="fa fa-paw paw-banner" aria-hidden="true"></span></span> </h4>
+                                <p><%= ciudad %></p>
+                                <!-- <div class="outs_more-buttn">
+                                    <a href="#" data-toggle="modal" data-target="#myModal">Solicitar Turno</a>
+                                </div> -->
+                                <div class="wa-horizontal-buttn">
+                                    <a href="https://api.whatsapp.com/send?phone=541159197589&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20cortes%20de%20pelo%20para%20perros%20a%20domicilio." target="_blank">Consultanos por Whatsapp</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>					
+            </ul>
+        </div>
+        <div class="clearfix"> </div>
+    </div>
+
+    <!-- modal -->
+    <div class="modal about-modal fade" id="myModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">X</span></button>
+                    <h4 class="modal-title">Formulario de consulta</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="out-info">
+                        <div class="letter-w3ls">
+
+                            <form action="https://formspree.io/f/xgednnea" method="post">
+                                <div class="main">
+                                    <div class="form-left-to-w3l">
+
+                                        <input type="text" name="name" placeholder="Nombre" required="">
+                                        <div class="clear"></div>
+                                    </div>
+                                    <div class="form-right-to-w3ls">
+
+                                        <input type="text" name="last name" placeholder="Apellido" required="">
+                                        <div class="clear"></div>
+                                    </div>
+
+                                </div>
+
+                                <div class="main">
+                                    <div class="form-left-to-w3l">
+
+                                        <input type="email" name="email" placeholder="Email" required="">
+                                        <div class="clear"></div>
+                                    </div>
+                                    <div class="form-right-to-w3ls">
+
+                                        <input type="text" name="phone number" placeholder="Teléfono" required="">
+                                        <div class="clear"></div>
+                                    </div>
+                                </div>
+                                <div class="main">
+
+                                    <div class="form-left-to-w3l">
+                                        
+                                    </div>
+                                    <div class="form-right-to-w3ls">
+                                        <select class="form-control">
+                <option value="">Otro</option>
+                    <option>Chico</option>
+                    <option>Mediano hasta 15 kg</option>
+                    <!-- <option>Grande</option> -->
+                    
+                </select>
+                                    </div>
+                                </div>
+
+
+                                <div class="form-add-to-w3ls add">
+
+                                    <input type="text" name="address" placeholder="Dirección" required="">
+                                    <div class="clear"></div>
+                                </div>
+
+
+                                <div class="main">
+                                    <div class="form-left-to-w3l">
+
+                                        <input type="text" name="city" placeholder="Ciudad" required="">
+                                        <div class="clear"></div>
+                                    </div>
+                                    <div class="form-right-to-w3ls">
+                                        <input type="text" name="state" placeholder="CABA Norte a Beccar" required="">
+                                        <div class="clear"></div>
+                                    </div>
+
+                                </div>
+                                <div class="main">
+                                    
+                                    <div class="form-right-to-w3ls">
+                                        <select class="form-control buttom">
+                                            <option value="">
+                                            Ciudad</option>
+                                                <option value="category2">CABA Norte</option>
+                                                <!-- <option value="category1">CABA Sur</option> -->
+                                                <option value="category3">Zona Norte</option>
+                                            </select>
+
+                                        <div class="clear"></div>
+                                    </div>
+
+                                </div>
+
+                                <div class="form-control-w3l">
+                                    <textarea name="Message" placeholder="Algún detalle sobre su mascota que debamos saber...? Gracias, Peluquería Canina a Domicilio Smokie." required=""></textarea>
+                                </div>
+                                <div class="btnn">
+                                    <button type="submit">Enviar</button><br>
+                                </div>
+
+                            </form>
+                        </div>
+                    </div>
+                    <!--//register form-->
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
