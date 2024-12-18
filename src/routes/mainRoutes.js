@@ -15,7 +15,23 @@ router.get("/saavedra", controller.saavedra);
 router.get("/sanisidro", controller.sanisidro);
 router.get("/vicentelopez", controller.vicentelopez);
 router.get("/villadelparque", controller.villadelparque);
-router.get("/tyc", controller.tyc);
+// router.get("/tyc", controller.tyc);
+router.get('/tyc', (req, res) => {
+    res.render('tyc', {
+        layout: 'layouts/layouttyc.ejs', // Especificas el layout alternativo
+        titulo: 'Términos y Condiciones', // Pasas un título para la página
+        ciudad: "CABA Norte",
+        zona: "De CABA Norte a San Isidro"
+    });
+});
+router.get('/localidades', (req, res) => {
+    res.render('localidades', {
+        layout: 'layouts/layouttyc.ejs', // Especificas el layout alternativo
+        titulo: 'Términos y Condiciones', // Pasas un título para la página
+        ciudad: "CABA Norte",
+        zona: "De CABA Norte a San Isidro"
+    });
+});
 
 
 module.exports = router;

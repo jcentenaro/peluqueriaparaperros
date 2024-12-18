@@ -203,6 +203,16 @@ background-repeat: no-repeat;
     -ms-background-size: cover;
     min-height: 800px;
 }
+/*-- //header2 --*/ 
+.header-outs2{   background: url(../images/slider2.webp);
+    background-repeat: no-repeat;
+        background-position: center;
+    -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        -ms-background-size: cover;
+        min-height: 100px;
+    }
 .rslides {
   position: relative;
   list-style: none;
