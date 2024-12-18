@@ -24,8 +24,8 @@ router.get('/terminos_y_condiciones', (req, res) => {
         zona: "De CABA Norte a San Isidro"
     });
 });
-router.get('/terminos_y_condiciones', (req, res) => {
-    res.render('terminos_y_condiciones', {
+router.get('/localidades', (req, res) => {
+    res.render('localidades', {
         layout: 'layouts/layouttyc.ejs', // Especificas el layout alternativo
         titulo: 'Términos y Condiciones', // Pasas un título para la página
         ciudad: "CABA Norte",
