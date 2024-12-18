@@ -1,21 +1,20 @@
 const express = require("express");
-const path = require("path");
 const app = express();
+const path = require("path");
 const expressLayouts = require("express-ejs-layouts");
 const methodOverride = require("method-override");
 
+// habilito vista carpetat public
+app.use(express.static(path.join(__dirname, "/public")));
 // configuración del motor de vistas
 app.set("view engine", "ejs");
 //y le digo en carpeta están las vistats
-app.set("views", "./src/views");
+app.set("views", path.join(__dirname, "/src/views"));
 // LE DIGO QUE UTILICE LAYOUTS Y EN DONDE
 app.use(expressLayouts);
 app.set("layout", "layouts/layout");
 // le pido a la app que use la cocnstatnte que cargué arriba
 app.use(methodOverride("_method"));
-// habilito vista carpetat public
-app.use(express.static(__dirname + "/public"));
-
 
 app.use(express.urlencoded({extended: false}));
 
