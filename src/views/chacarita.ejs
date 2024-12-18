@@ -1,7 +1,8 @@
 <%- contentFor('title') %> <%= titulo %> <%- contentFor('body') %>
 
+<%# contentFor('styles') %>
+<%# contentFor('body') %>
 <main>
-
 	<!--About-->
     <%- include("partials/about") %>
 	<!--/About-->
@@ -11,15 +12,17 @@
 	<!--//services-->
 
 	<!--galeria-->
-    <%# include("partials/galery") %>
+    <%- include("partials/galery") %>
     <!--/galeria-->
+
+	<!-- //portfolio -->
 
 	<!--price table-->
 	<%- include("partials/prices") %>
 	<!--//price table-->
 
 	<!-- testimonials -->
-	<%# include("partials/testimonials") %>
+	<%- include("partials/testimonials") %>
 	<!-- testimonials -->
 
 	<!--contact-->
@@ -30,3 +33,5 @@
     <%- include("partials/zonas") %>
     <!-- /zonas + logos-->
 </main>
+
+<%# contentFor('scripts') %>

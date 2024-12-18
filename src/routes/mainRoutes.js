@@ -15,5 +15,6 @@ router.get("/saavedra", controller.saavedra);
 router.get("/sanisidro", controller.sanisidro);
 router.get("/vicentelopez", controller.vicentelopez);
 router.get("/villadelparque", controller.villadelparque);
+router.get("/tyc", controller.tyc);
 
 module.exports = router;
