@@ -33,5 +33,4 @@ router.get('/localidades', (req, res) => {
     });
 });
 
-
 module.exports = router;
