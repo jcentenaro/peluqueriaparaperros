@@ -1345,8 +1345,8 @@ h1 a.navbar-brand {
     font-size: 18px;
 }
 .title {
-    font-size: 44px;
-	margin-bottom: 24px;
+    font-size: 42px;
+	margin-bottom: 23px;
 	}
 	.about, .services, .contact, .team, .testimonials, .portfolio, .price-table, .buttom-w3 {
     padding: 2em 0;
@@ -1531,7 +1531,7 @@ span.banner-icon {
 }
 .title {
     font-size: 42px;
-    margin-bottom: 10px;
+    margin-bottom: 23px;
 }
 .navbar-default .navbar-nav > li > a {
 	letter-spacing:1px
@@ -2163,3 +2163,76 @@ wa-horizontal-buttn
 }
 
 /*--//responsive--*/
+/* Style for the main FAQ container */
+.faq-container {
+    max-width: 1170px; /* Limit the width for better readability */
+    margin: 50px auto; /* Center the container and add vertical spacing */
+    /* background-color: aliceblue; */
+    padding: 20px;
+    font-family: 'Arial, sans-serif';
+    color: #333; /* Base text color */
+  }
+  
+  /* Style for the main title */
+  .faq-container h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #2c3e50; /* Dark blue color for the title */
+  }
+  
+  /* Style for each FAQ item */
+  .faq-item {
+    border-bottom: 1px solid #ddd; /* Light gray border between items */
+    overflow: hidden; /* Hide overflowing content */
+  }
+  
+  /* Style for the question buttons */
+  .faq-question {
+    background-color: #21C4CB; /* Light gray background */
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    padding: 20px;
+    margin: 5px 0;
+    text-align: left;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    transition: background-color 0.3s ease; /* Smooth background transition on hover */
+  }
+  
+  /* Hover effect for question buttons */
+  .faq-question:hover {
+    background-color: #d0d7de; /* Slightly darker gray on hover */
+  }
+  
+  /* Style for the arrow icon */
+  .faq-question .arrows {
+    position: absolute;
+    right: 20px;
+    transition: transform 0.3s ease; /* Smooth rotation transition */
+  }
+  
+  /* Rotate the arrow when the question is active (expanded) */
+  .faq-question.active .arrows {
+    transform: rotate(180deg); /* Rotate arrow 180 degrees */
+  }
+  
+  /* Style for the answer sections */
+  .faq-answer {
+    max-height: 0; /* Initially hide the answer */
+    overflow: hidden;
+    transition: max-height 0.3s ease; /* Smooth transition for expanding */
+    background-color: #fff; /* White background for answers */
+  }
+  
+  /* Style for the answer text */
+  .faq-answer p {
+    padding: 20px;
+    font-size: 16px;
+    line-height: 1.5; /* Increase line height for better readability */
+    color: #555; /* Slightly lighter text color for answers */
+  }
