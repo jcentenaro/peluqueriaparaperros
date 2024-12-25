@@ -9,110 +9,75 @@ let tareas = [
 //Aca irán las funciones para controlar el mainRoutes.js trayendo parte del código de ahí
 const index = (req, res) => {
     res.render("index", { 
-        titulo: "Peluquería Canina a Domicilio en CABA Norte - Cortes y Baños Caninos", 
-        mensaje: "Exclusivo CABA Norte", 
+        titulo: "Peluquería Canina a Domicilio en CABA Norte - Baños y Cortes para Perros", 
         ciudad: "CABA Norte y Zona Norte", 
-        tituloabout: "Peluquería Canina a Domicilio en CABA Norte", 
-        zona: "De CABA Norte a San Isidro", 
         urlgooglemaps: "https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d62524.910098985034!2d-58.46570898747677!3d-34.55201599726253!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1731982379055!5m2!1ses-419!2sar" });
 };
 
 const villaurquiza = (req, res) => {
     res.render("villaurquiza", { 
-        titulo: "Peluquería Canina a Domicilio en Villa Urquiza - Cortes y Baños Caninos", 
-        mensaje: "Exclusivo Villa Urquiza", 
+        titulo: "Peluquería Canina a Domicilio en Villa Urquiza - Baños y Cortes Higiénicos", 
         ciudad: "Villa Urquiza", 
-        tituloabout: "Peluquería Canina a Domicilio en Villa Urquiza", 
-        zona: "Villa Urquiza", 
         urlgooglemaps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11050.323449890857!2d-58.495297914629!3d-34.57176037514173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb65c360890c1%3A0x8bd20bac2f970066!2sVilla%20Urquiza%2C%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1732204935893!5m2!1ses!2sar"});
 };
 const belgrano = (req, res) => {
     res.render("belgrano", { 
-        titulo: "Peluquería Canina a Domicilio en Belgrano - Cortes y Baños Caninos", 
-        mensaje: "Exclusivo Belgrano", 
+        titulo: "Peluquería Canina a Domicilio en Belgrano - Baños y Cortes para Perros", 
         ciudad: "Belgrano", 
-        tituloabout: "Peluquería Canina a Domicilio en Belgrano", 
-        zona: "Belgrano", 
         urlgooglemaps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18587.816276470472!2d-58.461128793882715!3d-34.556271187905445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5d28526611d%3A0xbcb585a9ddc70069!2sBelgrano%2C%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1732204467173!5m2!1ses!2sar"});
 };
 const belgranor = (req, res) => {
     res.render("belgranor", { 
-        titulo: "Peluquería Canina a Domicilio en Belgrano R - Cortes y Baños Caninos", 
-        mensaje: "Exclusivo Belgrano R", 
+        titulo: "Peluquería de Perros a Domicilio en Belgrano R - Baños y Cortes de Raza", 
         ciudad: "Belgrano R", 
-        tituloabout: "Peluquería Canina a Domicilio en Belgrano R", 
-        zona: "Belgrano R", 
         urlgooglemaps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7813.979742963123!2d-58.4696035398046!3d-34.56940771126956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb6790e1d3c6d%3A0xc88a62c58387a92c!2sBelgrano%20R%2C%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1732210798988!5m2!1ses!2sar"});
 };
 const chacarita = (req, res) => {
-    res.render("chacarita", { titulo: "Peluquería Canina a Domicilio en Chacarita - Cortes y Baños Caninos", 
-        mensaje: "Exclusivo Chacarita", 
+    res.render("chacarita", {
+        titulo: "Peluquería Canina a Domicilio en Chacarita - Baños y Cortes de Raza", 
         ciudad: "Chacarita", 
-        tituloabout: "Peluquería Canina a Domicilio en Chacarita", 
-        zona: "Chacarita", 
         urlgooglemaps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9290.255595000182!2d-58.45799948319727!3d-34.58895194673338!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5fab4d7e7c7%3A0xc0677dc30b75b92b!2sChacarita%2C%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1732211094370!5m2!1ses!2sar"});
 };
 const coghlan = (req, res) => {
     res.render("coghlan", { 
-        titulo: "Peluquería Canina a Domicilio en Coghlan - Cortes y Baños Caninos", 
-        mensaje: "Exclusivo Coghlan", 
+        titulo: "Peluquería de Perros a Domicilio en Coghlan - Baños y Cortes Higiénicos", 
         ciudad: "Coghlan", 
-        tituloabout: "Peluquería Canina a Domicilio en Coghlan", 
-        zona: "Coghlan", 
         urlgooglemaps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6571.476479958345!2d-58.480217652712305!3d-34.56018240633314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb688a5472f13%3A0xe135def37ccd430d!2sCoghlan%2C%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1732204569823!5m2!1ses!2sar"});
 };
 const colegiales = (req, res) => {
     res.render("colegiales", { 
-        titulo: "Peluquería Canina a Domicilio en Colegiales - Cortes y Baños Caninos", 
-        mensaje: "Exclusivo Colegiales", 
+        titulo: "Peluquería Canina a Domicilio en Colegiales - Baños y Cortes para Perros", 
         ciudad: "Colegiales", 
-        tituloabout: "Peluquería Canina a Domicilio en Colegiales", 
-        zona: "Colegiales", 
         urlgooglemaps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9291.920644436825!2d-58.45686880475551!3d-34.57405744098747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5dd407c17db%3A0xf700e263552c9fa5!2sColegiales%2C%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1732204865029!5m2!1ses!2sar"});
 };
 const nunez = (req, res) => {
     res.render("nunez", { 
-        titulo: "Peluquería Canina a Domicilio en Nuñez - Cortes y Baños Caninos", 
-        mensaje: "Exclusivo Nuñez", 
+        titulo: "Ciudado de Mascotas en Nuñez - Baños y Cortes para Perros", 
         ciudad: "Nuñez", 
-        tituloabout: "Peluquería Canina a Domicilio en Nuñez", 
-        zona: "Nuñez", 
         urlgooglemaps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13144.9581433122!2d-58.4710511430288!3d-34.547490044517424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb420f6902f33%3A0x319825d17bcaba0d!2sN%C3%BA%C3%B1ez%2C%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1732204721525!5m2!1ses!2sar"});
 };
 const saavedra = (req, res) => {
     res.render("saavedra", { 
-        titulo: "Peluquería Canina a Domicilio en Saavedra - Cortes y Baños Caninos", 
-        mensaje: "Exclusivo Saavedra", 
+        titulo: "Peluquería Canina a Domicilio en Saavedra - Baños y Cortes para Perros", 
         ciudad: "Saavedra", 
-        tituloabout: "Peluquería Canina a Domicilio en Saavedra", 
-        zona: "Saavedra", 
         urlgooglemaps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9294.392555011877!2d-58.4878361832402!3d-34.55193488531408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb6ecec1f5741%3A0x42502844d305770b!2sSaavedra%2C%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1732204684356!5m2!1ses!2sar"});
 };
 const sanisidro = (req, res) => {
     res.render("sanisidro", { 
-        titulo: "Peluquería Canina a Domicilio en San Isidro - Cortes y Baños Caninos", 
-        mensaje: "Exclusivo San Isidro", 
+        titulo: "Peluquería Canina a Domicilio en San Isidro - Baños y Cortes para Perros", 
         ciudad: "San Isidro", 
-        tituloabout: "Peluquería Canina a Domicilio en San Isidro", 
-        zona: "San Isidro", 
         urlgooglemaps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22126.55276409319!2d-58.538454504312654!3d-34.47418192827967!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb03cd891437f%3A0xab3b49e671350275!2sSan%20Isidro%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1732211577988!5m2!1ses!2sar"});
 };
 const vicentelopez = (req, res) => {
     res.render("vicentelopez", { 
-        titulo: "Peluquería Canina a Domicilio en Vicente López - Cortes y Baños Caninos", 
-        mensaje: "Exclusivo Vicente López", 
+        titulo: "Ciudado de Mascotas a Domicilio en Vicente López - Baños y Cortes para Perros", 
         ciudad: "Vicente López", 
-        tituloabout: "Peluquería Canina a Domicilio en Vicente López", 
-        zona: "Vicente López", 
         urlgooglemaps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13148.540281926977!2d-58.48331462825573!3d-34.52480573907587!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb6a6386ba5c9%3A0xb8039ed75861da4d!2sVicente%20L%C3%B3pez%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1732204396590!5m2!1ses!2sar"});
 };
 const villadelparque = (req, res) => {
     res.render("villadelparque", { 
-        titulo: "Peluquería Canina a Domicilio en Villa Del Parque - Cortes y Baños Caninos", 
-        mensaje: "Exclusivo Villa Del Parque", 
+        titulo: "Spa para Perros a Domicilio en Villa Del Parque - Baños y Cortes para Perros", 
         ciudad: "Villa Del Parque", 
-        tituloabout: "Peluquería Canina a Domicilio en Villa Del Parque", 
-        zona: "Villa Del Parque", 
         urlgooglemaps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9288.494002341027!2d-58.49484950528578!3d-34.60470395826524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc9df44319d89%3A0x72e02046997c8cef!2sVilla%20del%20Parque%2C%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1732211318217!5m2!1ses!2sar"});
 };
 const terminos_y_condiciones = (req, res) => {
