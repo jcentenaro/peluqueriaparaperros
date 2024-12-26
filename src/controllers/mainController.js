@@ -16,13 +16,13 @@ const index = (req, res) => {
 
 const villaurquiza = (req, res) => {
     res.render("villaurquiza", { 
-        titulo: "Servicios de Peluquería Canina a Domicilio - Cuidado y Estilo para Perros", 
+        titulo: "Servicios de Peluquería Canina a Domicilio en Villa Urquiza", 
         ciudad: "Villa Urquiza", 
         urlgooglemaps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11050.323449890857!2d-58.495297914629!3d-34.57176037514173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb65c360890c1%3A0x8bd20bac2f970066!2sVilla%20Urquiza%2C%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1732204935893!5m2!1ses!2sar"});
 };
 const belgrano = (req, res) => {
     res.render("belgrano", { 
-        titulo: "Estética Canina Profesional a Domicilio - Baño, Corte y Spa para Perros", 
+        titulo: "Peluquería Canina a Domicilio en Belgrano - Baño y Corte para Perros", 
         ciudad: "Belgrano", 
         urlgooglemaps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18587.816276470472!2d-58.461128793882715!3d-34.556271187905445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5d28526611d%3A0xbcb585a9ddc70069!2sBelgrano%2C%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1732204467173!5m2!1ses!2sar"});
 };
