@@ -15,6 +15,11 @@ router.get("/saavedra", controller.saavedra);
 router.get("/san_isidro", controller.san_isidro);
 router.get("/vicente_lopez", controller.vicente_lopez);
 router.get("/villa_del_parque", controller.villa_del_parque);
+router.get("/agronomia", controller.agronomia);
+router.get("/florida", controller.florida);
+router.get("/martinez", controller.martinez);
+router.get("/la_lucila", controller.la_lucila);
+router.get("/olivos", controller.olivos);
 // router.get("/tyc", controller.tyc);
 router.get('/terminos_y_condiciones', (req, res) => {
     res.render('terminos_y_condiciones', {

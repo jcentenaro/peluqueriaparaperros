@@ -22,6 +22,13 @@ const villa_urquiza = (req, res) => {
         canonical: "https://peluqueriaparaperros.com.ar/villa_urquiza",
         urlgooglemaps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11050.323449890857!2d-58.495297914629!3d-34.57176037514173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb65c360890c1%3A0x8bd20bac2f970066!2sVilla%20Urquiza%2C%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1732204935893!5m2!1ses!2sar"});
 };
+const agronomia = (req, res) => {
+    res.render("agronomia", { 
+        titulo: "Servicios de Peluquería Canina a Domicilio en Agronomía", 
+        ciudad: "Agronomía",
+        canonical: "https://peluqueriaparaperros.com.ar/agronomia",
+        urlgooglemaps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11050.323449890857!2d-58.495297914629!3d-34.57176037514173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb65c360890c1%3A0x8bd20bac2f970066!2sVilla%20Urquiza%2C%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1732204935893!5m2!1ses!2sar"});
+};
 const belgrano = (req, res) => {
     res.render("belgrano", { 
         titulo: "Peluquería Canina a Domicilio en Belgrano - Baño y Corte para Perros", 
@@ -92,6 +99,34 @@ const villa_del_parque = (req, res) => {
         canonical: "https://peluqueriaparaperros.com.ar/villa_del_parque",
         urlgooglemaps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9288.494002341027!2d-58.49484950528578!3d-34.60470395826524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc9df44319d89%3A0x72e02046997c8cef!2sVilla%20del%20Parque%2C%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1732211318217!5m2!1ses!2sar"});
 };
+const olivos = (req, res) => {
+    res.render("olivos", { 
+        titulo: "Baño y Corte Canino a Domicilio - Peluquería Especializada en Mascotas", 
+        ciudad: "Olivos",
+        canonical: "https://peluqueriaparaperros.com.ar/olivos",
+        urlgooglemaps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9288.494002341027!2d-58.49484950528578!3d-34.60470395826524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc9df44319d89%3A0x72e02046997c8cef!2sVilla%20del%20Parque%2C%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1732211318217!5m2!1ses!2sar"});
+};
+const la_lucila = (req, res) => {
+    res.render("la_lucila", { 
+        titulo: "Baño y Corte Canino a Domicilio - Peluquería Especializada en Mascotas", 
+        ciudad: "La Lucila",
+        canonical: "https://peluqueriaparaperros.com.ar/la_lucila",
+        urlgooglemaps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9288.494002341027!2d-58.49484950528578!3d-34.60470395826524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc9df44319d89%3A0x72e02046997c8cef!2sVilla%20del%20Parque%2C%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1732211318217!5m2!1ses!2sar"});
+};
+const florida = (req, res) => {
+    res.render("florida", { 
+        titulo: "Baño y Corte Canino a Domicilio - Peluquería Especializada en Mascotas", 
+        ciudad: "Florida",
+        canonical: "https://peluqueriaparaperros.com.ar/florida",
+        urlgooglemaps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9288.494002341027!2d-58.49484950528578!3d-34.60470395826524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc9df44319d89%3A0x72e02046997c8cef!2sVilla%20del%20Parque%2C%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1732211318217!5m2!1ses!2sar"});
+};
+const martinez = (req, res) => {
+    res.render("martinez", { 
+        titulo: "Baño y Corte Canino a Domicilio - Peluquería Especializada en Mascotas", 
+        ciudad: "Martinez",
+        canonical: "https://peluqueriaparaperros.com.ar/martinez",
+        urlgooglemaps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9288.494002341027!2d-58.49484950528578!3d-34.60470395826524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc9df44319d89%3A0x72e02046997c8cef!2sVilla%20del%20Parque%2C%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1732211318217!5m2!1ses!2sar"});
+};
 const terminos_y_condiciones = (req, res) => {
     res.render("terminos_y_condiciones");
 };
@@ -101,6 +136,11 @@ const localidades = (req, res) => {
 //Exporto para que se puedad usar (llamar dedsde mainRouter)
 module.exports = {
     index,
+    agronomia,
+    florida,
+    martinez,
+    la_lucila,
+    olivos,
     villa_urquiza,
     belgrano,
     belgrano_r,
