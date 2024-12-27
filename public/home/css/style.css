@@ -87,7 +87,7 @@ ul {
     margin-bottom: 37px;  
 	text-transform: uppercase;
     letter-spacing: 1px;
-    font-weight: 300;
+    /* font-weight: 300; */
 }
 .clr {
     color: #fff;
