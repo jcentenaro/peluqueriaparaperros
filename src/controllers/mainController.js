@@ -11,7 +11,7 @@ const index = (req, res) => {
     res.render("index", { 
         titulo: "Peluquería Canina a Domicilio - Baño y Corte para Perros", 
         ciudad: "CABA Norte y Zona Norte",
-        canonical: "http://peluqueriaparaperros.com.ar",
+        canonical: "https://peluqueriaparaperros.com.ar",
         urlgooglemaps: "https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d62524.910098985034!2d-58.46570898747677!3d-34.55201599726253!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1731982379055!5m2!1ses-419!2sar" });
 };
 
