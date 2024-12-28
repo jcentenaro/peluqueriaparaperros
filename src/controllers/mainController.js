@@ -31,14 +31,14 @@ const agronomia = (req, res) => {
 };
 const belgrano = (req, res) => {
     res.render("belgrano", { 
-        titulo: "Peluquería Canina a Domicilio en Belgrano - Baño y Corte para Perros", 
+        titulo: "Peluquería Para Perros En Belgrano - Baño y Corte para Perros", 
         ciudad: "Belgrano",
         canonical: "https://peluqueriaparaperros.com.ar/belgrano",
         urlgooglemaps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18587.816276470472!2d-58.461128793882715!3d-34.556271187905445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5d28526611d%3A0xbcb585a9ddc70069!2sBelgrano%2C%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1732204467173!5m2!1ses!2sar"});
 };
 const belgrano_r = (req, res) => {
     res.render("belgrano_r", { 
-        titulo: "Baño y Corte para Perros a Domicilio - Peluquería Canina Especializada", 
+        titulo: "Baño y Corte de Pelo para Perros a Domicilio en Belgrano R", 
         ciudad: "Belgrano R",
         canonical: "https://peluqueriaparaperros.com.ar/belgrano_r",
         urlgooglemaps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7813.979742963123!2d-58.4696035398046!3d-34.56940771126956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb6790e1d3c6d%3A0xc88a62c58387a92c!2sBelgrano%20R%2C%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1732210798988!5m2!1ses!2sar"});
@@ -73,14 +73,14 @@ const nunez = (req, res) => {
 };
 const saavedra = (req, res) => {
     res.render("saavedra", { 
-        titulo: "Peluquería Canina Móvil - Baño, Corte y Spa para Perros en Casa", 
+        titulo: "Servicios de Baño y Peluquería Canina en Saavedra", 
         ciudad: "Saavedra",
         canonical: "https://peluqueriaparaperros.com.ar/saavedra",
         urlgooglemaps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9294.392555011877!2d-58.4878361832402!3d-34.55193488531408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb6ecec1f5741%3A0x42502844d305770b!2sSaavedra%2C%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1732204684356!5m2!1ses!2sar"});
 };
 const san_isidro = (req, res) => {
     res.render("san_isidro", { 
-        titulo: "Servicios Profesionales de Peluquería Canina a Domicilio - Agenda Hoy", 
+        titulo: "Peluqueria Canina A Domicilio en San Isidro - Agenda Hoy", 
         ciudad: "San Isidro",
         canonical: "https://peluqueriaparaperros.com.ar/san_isidro",
         urlgooglemaps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22126.55276409319!2d-58.538454504312654!3d-34.47418192827967!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb03cd891437f%3A0xab3b49e671350275!2sSan%20Isidro%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1732211577988!5m2!1ses!2sar"});
