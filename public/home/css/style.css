@@ -179,7 +179,19 @@ h1 a.navbar-brand span.fa{
     display: inline-block;
     color: #000;
 }
-
+h2 a.navbar-brand {
+    font-size: 49px;
+    color: #fff !important;
+    text-transform: uppercase;
+    font-weight: 300;
+	
+    letter-spacing: 2px;
+}
+h2 a.navbar-brand span.fa{
+    font-size: 38px;
+    display: inline-block;
+    color: #000;
+}
 /*.navbar-default .navbar-brand {
     color: #131212;
 	font-size:50px;
@@ -190,7 +202,9 @@ a.navbar-brand i{
 h1 a.navbar-brand span {
     color:rgba(230, 0, 79, 0.9);
 }
-
+h2 a.navbar-brand span {
+    color:rgba(230, 0, 79, 0.9);
+}
 /*-- //nav --*/
 
 /*-- //header --*/ 
@@ -1344,6 +1358,12 @@ h1 a.navbar-brand {
 	.header-outs {
     min-height: 603px;
 }
+h2 a.navbar-brand {
+    font-size: 45px;
+	}
+	.header-outs {
+    min-height: 603px;
+}
 .navbar-default .navbar-nav > li > a {
     font-size: 14px;
 	}
@@ -1374,6 +1394,12 @@ span.cost {
 	h1 a.navbar-brand span.fa {
     font-size: 32px;
 	}
+    h2 a.navbar-brand {
+    font-size: 42px;
+    }
+    h2 a.navbar-brand span.fa {
+    font-size: 32px;
+    }
 	.letter input[type="email"] {
     width: 64%;
 	}
@@ -1493,6 +1519,9 @@ span.banner-icon {
 h1 a.navbar-brand {
     font-size: 38px;
 }
+h2 a.navbar-brand {
+    font-size: 38px;
+}
 .navbar-nav {
     margin-top: 2px;
 }
@@ -1541,6 +1570,9 @@ span.banner-icon {
 	h1 a.navbar-brand {
     letter-spacing: 1px;
 }
+h2 a.navbar-brand {
+    letter-spacing: 1px;
+}
 .title {
     font-size: 42px;
     margin-bottom: 23px;
@@ -1586,12 +1618,19 @@ span.cost {
 
 }
 @media(max-width:900px){
-	h1 a.navbar-brand span.fa {
-    font-size: 28px;
-	}
-	h1 a.navbar-brand {
-    letter-spacing: 1px;
-    font-size: 36px;
+h1 a.navbar-brand span.fa {
+font-size: 28px;
+}
+h1 a.navbar-brand {
+letter-spacing: 1px;
+font-size: 36px;
+}
+h2 a.navbar-brand span.fa {
+font-size: 28px;
+}
+h2 a.navbar-brand {
+letter-spacing: 1px;
+font-size: 36px;
 }
 nav.navbar.navbar-default {
     padding: 2em 2em 1em;
@@ -2086,6 +2125,9 @@ textarea {
 h1 a.navbar-brand {
     font-size: 31px;
 }
+h2 a.navbar-brand {
+    font-size: 31px;
+}
 #quote-carousel .carousel-indicators .active {
     width: 58px;
     height: 58px;
@@ -2117,6 +2159,9 @@ h1 a.navbar-brand {
     margin-top: 1em;
 }
 h1 a.navbar-brand {
+    font-size: 24px;
+}
+h2 a.navbar-brand {
     font-size: 24px;
 }
 .header-outs {
