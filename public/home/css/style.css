@@ -4,7 +4,10 @@ body {
     margin: 0;
     background: #fff;
     letter-spacing: 1px;
-font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
 }
 
 body a {
@@ -1265,7 +1268,8 @@ padding:0px} */
 }
 footer {text-align:center;
     background:#000;
-	padding:2em 0;}
+	padding:2em 0;
+}
 footer p {
     font-size: 14px;
     color: #fff;

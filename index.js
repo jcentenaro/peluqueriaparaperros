@@ -1,8 +1,18 @@
 const express = require("express");
 const app = express();
-const path = require("path");
 const expressLayouts = require("express-ejs-layouts");
+const bodyParser = require("body-parser");
+const contactRoutes = require("./src/routes/mainRoutes");
+
+const path = require("path");
+
 const methodOverride = require("method-override");
+
+// Middleware para procesar formularios
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.json());
+// Usar las rutas de contacto
+app.use("/contacto", contactRoutes);
 
 // habilito vista carpetat public
 app.use(express.static(path.join(__dirname, "/public")));
