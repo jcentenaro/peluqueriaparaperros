@@ -86,6 +86,9 @@ router.get("/martinez", controller.martinez);
 router.get("/la_lucila", controller.la_lucila);
 router.get("/olivos", controller.olivos);
 router.get("/success", controller.success);
+router.get("/parque_chas", controller.parque_chas);
+router.get("/parque_patricios", controller.parque_patricios);
+router.get("/barrio_chino", controller.barrio_chino);
 
 // router.get("/tyc", controller.tyc);
 router.get('/terminos_y_condiciones', (req, res) => {

@@ -127,6 +127,27 @@ const martinez = (req, res) => {
         canonical: "https://peluqueriaparaperros.com.ar/martinez",
         urlgooglemaps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9288.494002341027!2d-58.49484950528578!3d-34.60470395826524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc9df44319d89%3A0x72e02046997c8cef!2sVilla%20del%20Parque%2C%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1732211318217!5m2!1ses!2sar"});
 };
+const parque_chas = (req, res) => {
+    res.render("parque_chas", { 
+        titulo: "Baño y Corte Canino a Domicilio en Parque Chas - Peluquería Especializada en Mascotas", 
+        ciudad: "Parque Chas",
+        canonical: "https://peluqueriaparaperros.com.ar/martinez",
+        urlgooglemaps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9288.494002341027!2d-58.49484950528578!3d-34.60470395826524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc9df44319d89%3A0x72e02046997c8cef!2sVilla%20del%20Parque%2C%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1732211318217!5m2!1ses!2sar"});
+};
+const parque_patricios = (req, res) => {
+    res.render("parque_patricios", { 
+        titulo: "Baño y Corte Canino a Domicilio en Parque Patricios - Peluquería Especializada en Mascotas", 
+        ciudad: "Parque Patricios",
+        canonical: "https://peluqueriaparaperros.com.ar/martinez",
+        urlgooglemaps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9288.494002341027!2d-58.49484950528578!3d-34.60470395826524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc9df44319d89%3A0x72e02046997c8cef!2sVilla%20del%20Parque%2C%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1732211318217!5m2!1ses!2sar"});
+};
+const barrio_chino = (req, res) => {
+    res.render("barrio_chino", { 
+        titulo: "Baño y Corte Canino a Domicilio en Barrio Chino- Peluquería Especializada en Mascotas", 
+        ciudad: "Barrio Chino",
+        canonical: "https://peluqueriaparaperros.com.ar/martinez",
+        urlgooglemaps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9288.494002341027!2d-58.49484950528578!3d-34.60470395826524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc9df44319d89%3A0x72e02046997c8cef!2sVilla%20del%20Parque%2C%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1732211318217!5m2!1ses!2sar"});
+};
 const terminos_y_condiciones = (req, res) => {
     res.render("terminos_y_condiciones");
 };
@@ -166,5 +187,8 @@ module.exports = {
     villa_del_parque,
     terminos_y_condiciones,
     localidades,
-    success
+    success,
+    parque_chas,
+    parque_patricios,
+    barrio_chino
 };
