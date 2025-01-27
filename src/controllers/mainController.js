@@ -104,49 +104,56 @@ const olivos = (req, res) => {
         titulo: "Baño y Corte Canino a Domicilio - Peluquería Especializada en Mascotas", 
         ciudad: "Olivos",
         canonical: "https://peluqueriaparaperros.com.ar/olivos",
-        urlgooglemaps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9288.494002341027!2d-58.49484950528578!3d-34.60470395826524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc9df44319d89%3A0x72e02046997c8cef!2sVilla%20del%20Parque%2C%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1732211318217!5m2!1ses!2sar"});
+        urlgooglemaps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13150.37764850467!2d-58.50854722826307!3d-34.513165336672735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb147d4018937%3A0xfa30a67c6ada18f7!2sB1636%20Olivos%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1738013737916!5m2!1ses!2sar"});
 };
 const la_lucila = (req, res) => {
     res.render("la_lucila", { 
         titulo: "Baño y Corte Canino a Domicilio - Peluquería Especializada en Mascotas", 
         ciudad: "La Lucila",
         canonical: "https://peluqueriaparaperros.com.ar/la_lucila",
-        urlgooglemaps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9288.494002341027!2d-58.49484950528578!3d-34.60470395826524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc9df44319d89%3A0x72e02046997c8cef!2sVilla%20del%20Parque%2C%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1732211318217!5m2!1ses!2sar"});
+        urlgooglemaps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13152.762318326513!2d-58.49734207827261!3d-34.49805243355391!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb112ae65e7c7%3A0x2445b5a366fc95bb!2sLa%20Lucila%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1738013710112!5m2!1ses!2sar"});
 };
 const florida = (req, res) => {
     res.render("florida", { 
         titulo: "Baño y Corte Canino a Domicilio - Peluquería Especializada en Mascotas", 
         ciudad: "Florida",
         canonical: "https://peluqueriaparaperros.com.ar/florida",
-        urlgooglemaps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9288.494002341027!2d-58.49484950528578!3d-34.60470395826524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc9df44319d89%3A0x72e02046997c8cef!2sVilla%20del%20Parque%2C%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1732211318217!5m2!1ses!2sar"});
+        urlgooglemaps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13147.328106489807!2d-58.501933978250875!3d-34.53248344066136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb6cc77eb3961%3A0xee434cae937168d9!2sB1602%20Florida%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1738013671421!5m2!1ses!2sar"});
 };
 const martinez = (req, res) => {
     res.render("martinez", { 
         titulo: "Baño y Corte Canino a Domicilio - Peluquería Especializada en Mascotas", 
         ciudad: "Martinez",
         canonical: "https://peluqueriaparaperros.com.ar/martinez",
-        urlgooglemaps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9288.494002341027!2d-58.49484950528578!3d-34.60470395826524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc9df44319d89%3A0x72e02046997c8cef!2sVilla%20del%20Parque%2C%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1732211318217!5m2!1ses!2sar"});
+        urlgooglemaps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26306.76651922904!2d-58.53169069787607!3d-34.49411625110668!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb05662e4a08d%3A0x9811553c3a21048c!2sMart%C3%ADnez%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1738013636671!5m2!1ses!2sar"});
 };
 const parque_chas = (req, res) => {
     res.render("parque_chas", { 
         titulo: "Baño y Corte Canino a Domicilio en Parque Chas - Peluquería Especializada en Mascotas", 
         ciudad: "Parque Chas",
         canonical: "https://peluqueriaparaperros.com.ar/martinez",
-        urlgooglemaps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9288.494002341027!2d-58.49484950528578!3d-34.60470395826524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc9df44319d89%3A0x72e02046997c8cef!2sVilla%20del%20Parque%2C%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1732211318217!5m2!1ses!2sar"});
+        urlgooglemaps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6569.525392330709!2d-58.48495635270827!3d-34.58487060892096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb66ca6ae7bf1%3A0xf28cf4a38e0a9db9!2sParque%20Chas%2C%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1738013603944!5m2!1ses!2sar"});
 };
 const parque_patricios = (req, res) => {
     res.render("parque_patricios", { 
-        titulo: "Baño y Corte Canino a Domicilio en Parque Patricios - Peluquería Especializada en Mascotas", 
+        titulo: "Baño y Corte de Uñas para Perros a Domicilio en Parque Patricios - Peluquería Canina a Domicilio", 
         ciudad: "Parque Patricios",
         canonical: "https://peluqueriaparaperros.com.ar/martinez",
-        urlgooglemaps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9288.494002341027!2d-58.49484950528578!3d-34.60470395826524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc9df44319d89%3A0x72e02046997c8cef!2sVilla%20del%20Parque%2C%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1732211318217!5m2!1ses!2sar"});
+        urlgooglemaps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13130.660059350423!2d-58.42114283543349!3d-34.63790469595095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb1160a8e62b%3A0x42f33f7586b05be1!2sParque%20Patricios%2C%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1738013571642!5m2!1ses!2sar"});
 };
 const barrio_chino = (req, res) => {
     res.render("barrio_chino", { 
-        titulo: "Baño y Corte Canino a Domicilio en Barrio Chino- Peluquería Especializada en Mascotas", 
+        titulo: "Corte de Uñas y Peluquería Canina a Domicilio en Barrio Chino- Peluquería Especializada en Mascotas", 
         ciudad: "Barrio Chino",
         canonical: "https://peluqueriaparaperros.com.ar/martinez",
-        urlgooglemaps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9288.494002341027!2d-58.49484950528578!3d-34.60470395826524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc9df44319d89%3A0x72e02046997c8cef!2sVilla%20del%20Parque%2C%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1732211318217!5m2!1ses!2sar"});
+        urlgooglemaps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13143.437492803498!2d-58.461181243809605!3d-34.557115795722375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5d3ea07df93%3A0x947b5150d5a5bda4!2sBarrio%20Chino%2C%20C1428%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1738013452706!5m2!1ses!2sar"});
+};
+const villa_devoto = (req, res) => {
+    res.render("villa_devoto", { 
+        titulo: "Baño y Corte Canino a Domicilio en Villa Devoto - Corte de Uñas", 
+        ciudad: "Villa Devoto",
+        canonical: "https://peluqueriaparaperros.com.ar/martinez",
+        urlgooglemaps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26273.155223291953!2d-58.53383219760563!3d-34.60050984384523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb7d17aecb4c5%3A0x2ec18aeefab8400!2sVilla%20Devoto%2C%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1738013521384!5m2!1ses!2sar"});
 };
 const terminos_y_condiciones = (req, res) => {
     res.render("terminos_y_condiciones");
@@ -190,5 +197,6 @@ module.exports = {
     success,
     parque_chas,
     parque_patricios,
-    barrio_chino
+    barrio_chino,
+    villa_devoto
 };

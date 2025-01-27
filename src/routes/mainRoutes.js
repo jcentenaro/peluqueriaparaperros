@@ -89,6 +89,7 @@ router.get("/success", controller.success);
 router.get("/parque_chas", controller.parque_chas);
 router.get("/parque_patricios", controller.parque_patricios);
 router.get("/barrio_chino", controller.barrio_chino);
+router.get("/villa_devoto", controller.villa_devoto);
 
 // router.get("/tyc", controller.tyc);
 router.get('/terminos_y_condiciones', (req, res) => {
