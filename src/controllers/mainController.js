@@ -131,7 +131,7 @@ const parque_chas = (req, res) => {
     res.render("parque_chas", { 
         titulo: "Baño y Corte Canino a Domicilio en Parque Chas - Peluquería Especializada en Mascotas", 
         ciudad: "Parque Chas",
-        canonical: "https://peluqueriaparaperros.com.ar/martinez",
+        canonical: "https://peluqueriaparaperros.com.ar/parque_chas",
         urlgooglemaps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6569.525392330709!2d-58.48495635270827!3d-34.58487060892096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb66ca6ae7bf1%3A0xf28cf4a38e0a9db9!2sParque%20Chas%2C%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1738013603944!5m2!1ses!2sar"});
 };
 const parque_patricios = (req, res) => {
