@@ -17,7 +17,7 @@ const index = (req, res) => {
 
 const villa_urquiza = (req, res) => {
     res.render("villa_urquiza", { 
-        titulo: "Servicios de Peluquería Canina a Domicilio en Villa Urquiza", 
+        titulo: "Corte de Uñas para Perros - Peluquería Canina a Domicilio en Villa Urquiza", 
         ciudad: "Villa Urquiza",
         canonical: "https://peluqueriaparaperros.com.ar/villa_urquiza",
         urlgooglemaps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11050.323449890857!2d-58.495297914629!3d-34.57176037514173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb65c360890c1%3A0x8bd20bac2f970066!2sVilla%20Urquiza%2C%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1732204935893!5m2!1ses!2sar"});
@@ -52,21 +52,21 @@ const chacarita = (req, res) => {
 };
 const coghlan = (req, res) => {
     res.render("coghlan", { 
-        titulo: "Servicios de Aseo Canino a Domicilio - Belleza y Cuidado para Perros", 
+        titulo: "Corte de Pelo y Uñas para Perros a Domicilio - Belleza y Cuidado para Perros", 
         ciudad: "Coghlan",
         canonical: "https://peluqueriaparaperros.com.ar/coghlan",
         urlgooglemaps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6571.476479958345!2d-58.480217652712305!3d-34.56018240633314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb688a5472f13%3A0xe135def37ccd430d!2sCoghlan%2C%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1732204569823!5m2!1ses!2sar"});
 };
 const colegiales = (req, res) => {
     res.render("colegiales", { 
-        titulo: "Peluquería Canina Profesional a Domicilio - Baño, Corte y Estilizado", 
+        titulo: "Corte de Uñas para Perros - Peluquería Canina Profesional a Domicilio", 
         ciudad: "Colegiales",
         canonical: "https://peluqueriaparaperros.com.ar/colegiales",
         urlgooglemaps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9291.920644436825!2d-58.45686880475551!3d-34.57405744098747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5dd407c17db%3A0xf700e263552c9fa5!2sColegiales%2C%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1732204865029!5m2!1ses!2sar"});
 };
 const nunez = (req, res) => {
     res.render("nunez", { 
-        titulo: "Cuidado y Belleza para Perros - Peluquería Canina Profesional a Domicilio", 
+        titulo: "Corte de Pelo y Uñas para Perros - Peluquería Canina a Domicilio en Nuñez", 
         ciudad: "Nuñez",
         canonical: "https://peluqueriaparaperros.com.ar/nunez",
         urlgooglemaps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13144.9581433122!2d-58.4710511430288!3d-34.547490044517424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb420f6902f33%3A0x319825d17bcaba0d!2sN%C3%BA%C3%B1ez%2C%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1732204721525!5m2!1ses!2sar"});
@@ -101,7 +101,7 @@ const villa_del_parque = (req, res) => {
 };
 const olivos = (req, res) => {
     res.render("olivos", { 
-        titulo: "Baño y Corte Canino a Domicilio - Peluquería Especializada en Mascotas", 
+        titulo: "Corte de Uñas para Perros - Peluquería Canina a Domicilio en Olivos", 
         ciudad: "Olivos",
         canonical: "https://peluqueriaparaperros.com.ar/olivos",
         urlgooglemaps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13150.37764850467!2d-58.50854722826307!3d-34.513165336672735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb147d4018937%3A0xfa30a67c6ada18f7!2sB1636%20Olivos%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1738013737916!5m2!1ses!2sar"});
@@ -115,7 +115,7 @@ const la_lucila = (req, res) => {
 };
 const florida = (req, res) => {
     res.render("florida", { 
-        titulo: "Baño y Corte Canino a Domicilio - Peluquería Especializada en Mascotas", 
+        titulo: "Baño y Corte Canino a Domicilio - Peluquería Canina a Domicilio en Florida", 
         ciudad: "Florida",
         canonical: "https://peluqueriaparaperros.com.ar/florida",
         urlgooglemaps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13147.328106489807!2d-58.501933978250875!3d-34.53248344066136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb6cc77eb3961%3A0xee434cae937168d9!2sB1602%20Florida%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1738013671421!5m2!1ses!2sar"});
